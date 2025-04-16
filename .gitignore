@@ -1,4 +1,52 @@
-__pycache__
+
+# Archivos y carpetas del entorno virtual
+env/
 venv/
+
+# Archivos de configuración sensible
 .env
-.vscode
+.env.*
+
+# Archivos generados por Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Docker
+*.tar
+*.log
+.dockerignore
+
+
+# Configuración de IDEs y editores de texto
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos temporales de pruebas y desarrollo
+*.bak
+*.tmp
+*.swp
+*.sqlite3
+*.db
+
+# Archivos de sistema y otros
+.DS_Store
+Thumbs.db
+
+# Alembic (opcional: ignora migraciones locales si no deseas compartirlas)
+
+# Archivos de build (si alguna vez generas distros)
+build/
+dist/
+*.egg-info/
+
+# Node.js (si llegas a usar JS o frontend en el mismo repo)
+node_modules/
+
+# Otros archivos que podrían ser creados por herramientas
+coverage/
+htmlcov/
+*.cover
+*.log
