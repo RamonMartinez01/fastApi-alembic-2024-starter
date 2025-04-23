@@ -9,10 +9,10 @@ Este es un proyecto base (starter) para crear aplicaciones backend modernas usan
 
 ##  ¿Qué incluye este proyecto?
 
--  **FastAPI** como framework backend rápido y moderno.
+-  **FastAPI** como framework backend
 -  **SQLAlchemy** como ORM para manejar la base de datos.
--  **Alembic** para gestionar migraciones de esquema.
--  **PostgreSQL** como sistema gestor de base de datos.
+-  **Alembic** para gestionar migraciones.
+-  **PostgreSQL** como gestor de base de datos.
 -  **dotenv** para cargar variables de entorno desde archivos `.env`.
 -  Estructura modular: separa controladores, modelos y rutas.
 -  Listo para agregar pruebas y documentación en el futuro.
